@@ -1,0 +1,43 @@
+Instructions to use github or gitlab
+-------------------------------------
+
+step1: Download Git and Install
+	link: http://git-scm.com/
+
+step2: use "git --version" command in your terminal to check whether the git is installed or not if git
+	is installed you can able to see the version in terminal,right click and you can see "git GUI here"
+	and "git bash here" options.
+
+step3:Now if you are using Git for the fist time you need to create ssh key and add that key to your
+	Git account.
+	use this youtube Link to create and add ssh key: https://youtu.be/hLGvGBj_HiE
+
+step4: open file that you want to push in gitlab and now right click and open "git bash here" in that location
+	once you got that location in bit bash terminal
+
+step5:If you want that project in your computer "git clone 'PASTE PROJECT HTTP KEY HERE'"
+
+step6:Important! You should create a local branch before you do any changes in the project
+	example: "git branch 'feature1'" this will create a copy of master branch here your
+	changes will not affect the master branch
+	"git branch"command to check your branches 
+	"git checkout 'BRANCH NAME'" to switch branches
+
+step7:"git config --global user.name 'YOUR GIT USERNAME HERE'"
+
+step8:"git config --global user.email 'YOUR GIT EMAIL HERE'"
+
+step9: Now write "git init" in git bash, this will create a .get hidden file in that location
+
+step10: Now write "git add ." after this command our files is in staging area
+
+step11: Now write "git commit -m 'YOUR MESSAGE HERE'" this will commit our changes
+
+step12: Now if you want to push your code,write "git push -m origin master" 
+
+step13: Optional: If you want to check the commit than write "git log"
+
+step14: If you want to pull code from gitlab to your pc then write "git pull origin master"
+
+
+
